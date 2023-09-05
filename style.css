@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.div-1{
+    background-image: url(./moving1.png);
+    background-size: cover;
+    height: 120vh;
+    padding: 60px 120px;
+}
+.div-1-a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-1-a a{
+    margin: 0 24px;
+    color: white;
+    text-decoration: none;
+}
+.div-1 p{
+    width: 50%;
+    color: #fff200;
+    font-size: 52px;
+    margin: 40px 0;
+}
+
+.div-1 h2{
+    color: #bbbbbb;
+    font-size: 24px;
+    width: 50%;
+}
+.cut-the-hustle{
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cut-the-hustle-img{
+    width: 48%;
+}
+
+.cut-the-hustle-img img{
+    width: 100%;
+}
+
+.cut-the-hustle-text{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gradient-div{
+    width: 160px;
+    height: 4px;
+    background-image: linear-gradient(to right, #efbf01, #000000);
+}
+
+.cut-the-hustle-text h1{
+    font-size: 36px;
+    margin: 16px 0;
+}
+
+.cut-the-hustle-text p{
+    width: 48%;
+    font-size: 20px;
+}
+
+.cut-the-hustle-text button{
+    margin-top: 48px;
+    width: 24%;
+    background-color: black;
+    color: #ffea00;
+    border: none;
+    border-top-right-radius: 16px;
+    padding: 16px 0;
+}
+
+
+
+footer{
+    background-color: black;
+    padding: 100px 160px;
+}
+
+.footer-links{
+    margin-top: 52px;
+    border-top: 1px solid #232323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+}
+
+.footer-links-icons{
+    color: white;
+}
+
+.footer-links-icons i{
+    margin-right: 24px;
+    font-size: 18px;
+}
+
+.footer-links-links h1{
+    color: white;
+    font-size: 18px;
+}
+.footer-links-links p{
+    color: rgb(140, 162, 162);
+}
